@@ -26,3 +26,29 @@ function greet(name)
 }
 let greeting = greet("Harsha");
 console.log(greeting);
+
+//Default parameter Values
+//When we create a function with default parameters and
+// when we pass all the attributes without missing 
+//any then default values are not considered else default is considered
+
+function defaultParametered(num1 =0,num2=0,num3 =0)
+{
+    console.log("\n"+num1,num2,num3)
+    return num1+num2+num3;
+}
+console.log(defaultParametered());
+console.log(defaultParametered(10));
+console.log(defaultParametered(10,20));
+console.log(defaultParametered(10,20,30));
+//When we dont give the Default values it returns NaN
+//This function only works when every parameter is given a Argument
+function defaultParametered(num1,num2,num3)
+{
+    console.log("\n"+num1,num2,num3)
+    return num1+num2+num3;
+}
+console.log(defaultParametered());
+console.log(defaultParametered(10));
+console.log(defaultParametered(10,20));
+console.log(defaultParametered(10,20,30));
