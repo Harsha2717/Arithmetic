@@ -29,4 +29,3 @@ Addition of ${num1} + ${num2} = ${add}
 Substraction of ${num1} - ${num2} = ${sub}
 Multiplication of ${num1} * ${num2} = ${multi}
 Division of ${num1} / ${num2} = ${div}`);
-
