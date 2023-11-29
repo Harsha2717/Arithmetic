@@ -21,4 +21,9 @@ map.set("Sirisha","Java");
 //     console.log(`${k} : ${v}`);
 // }
 //in forEach we need to pass value,index,dataStructure
-map.forEach(value => console.log(value));
+//map.forEach(value => console.log(value));
+//Another method to obtain map values
+for (let key of map.keys())
+{
+    console.log(map.get(key));
+}
